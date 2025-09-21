@@ -33,6 +33,6 @@ int main() {
     long long num;
     cout<< "enter the number :";
     cin >> num;
-    cout << "the last number is :"<< (num % 10 )<<endl;
+    cout << "the last number is :"<< (abs(num) % 10 )<<endl; // used "abs" for converting -ve number to +ve and +ve and +ve
     return 0 ;
 }
